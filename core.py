@@ -6,9 +6,7 @@ load_dotenv()
 from langchain_core.tools import tool
 from langchain_mistralai import ChatMistralAI
 from langchain.agents import create_agent
-from langchain_core.tools import tool
-from langchain_mistralai import ChatMistralAI
-from langchain.agents import create_agent
+
 
 @tool
 def add(a: float, b: float) -> float:
